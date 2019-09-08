@@ -1,2 +1,2 @@
-# 2a-tindev
-2A Tindev
+# RedeSocial
+2A Solution - RedeSocial
