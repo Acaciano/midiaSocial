@@ -1,0 +1,14 @@
+.button-label-app{
+    background: #1b7ccb;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    display: table;
+    font-family: 'Gotham';
+    color: #FFF;
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+}

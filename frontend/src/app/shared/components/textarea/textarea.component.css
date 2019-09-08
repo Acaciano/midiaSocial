@@ -1,0 +1,27 @@
+textarea{
+    width: 100%;
+    float: left;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #d1d4d9;
+    font-family: 'Gotham';
+    color: #0e2462;
+    font-size: 21px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.label-textarea{
+    font-family: 'Gotham';
+    color: #207fcc;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}

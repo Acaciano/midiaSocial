@@ -1,0 +1,21 @@
+<div class="container-app">
+  <div class="row-header">
+    <app-title title="Notificações Twitter"></app-title>
+    <div class="right-container">
+      <app-button-label *ngIf="twitter" title="{{twitter.total}} Tweets"></app-button-label>
+    </div>
+  </div>
+  <div class="row-header">
+    <app-textarea label="Palavras buscadas" [(ngModel)]="terms" (change)="save()"></app-textarea>
+  </div>
+  <div class="row-header">
+    <app-checkbox label="OUVIR TWEET" (change)="save()" [(ngModel)]="checkbox"></app-checkbox>
+  </div>
+  <div class="row-tweets">
+    <div *ngIf="twitter">
+      <app-label-twitter *ngFor="let item of twitter.result" img="{{item.profileImageUrl}}"
+        user="{{item.userName}}" date="{{item.stringCreatedAt}}" tweet="{{item.text}}">
+      </app-label-twitter>
+    </div>
+  </div>
+</div>

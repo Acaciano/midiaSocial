@@ -1,0 +1,10 @@
+.title-app{
+    width: 100%;
+    float: left;
+    color: #102463;
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-size: 22px;
+    border-bottom: 1px solid #d1d4d9;
+    padding-bottom: 15px;
+}

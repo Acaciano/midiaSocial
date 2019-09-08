@@ -1,0 +1,216 @@
+{
+  "menu": [
+    {
+      "id": "929c4cd4-52b4-4177-824c-4aa26b3ffca0",
+      "titulo": "TI",
+      "descricao": "TI",
+      "idperfil": "2a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "list": [
+        {
+          "id": "244ed540-b4b2-4ff5-944d-05972bbaf1c8",
+          "titulo": "TI 123",
+          "descricao": "TI 123",
+          "uri": "http://globo.com",
+          "icon": "ambulance"
+        },
+        {
+          "id": "56a5addd-8afb-4c14-af3b-839100c8a96a",
+          "titulo": "TI 456",
+          "descricao": "TI 456",
+          "uri": "http://ti.com",
+          "icon": "ambulance"
+        }
+      ]
+    },
+    {
+      "id": "aa414c53-f873-4f44-96d2-ffc33049a44f",
+      "titulo": "Portaria",
+      "descricao": "Portaria",
+      "idperfil": "1a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "list": [
+        {
+          "id": "de9c0627-e0bd-4220-8de6-2e5121c3f493",
+          "titulo": "Restrição de Entrada",
+          "descricao": "Restrição de Entrada",
+          "uri": "http://globo.com",
+          "icon": "ambulance"
+        },
+        {
+          "id": "d937afa4-85e3-4fd5-a83e-eb789c41a36b",
+          "titulo": "Motivo Portaria",
+          "descricao": "Motivo Portaria",
+          "uri": "http://ti.com",
+          "icon": "ambulance"
+        },
+        {
+          "id": "413c1469-dc33-4470-9415-f1cecf85cde5",
+          "titulo": "Triagem de Entrada",
+          "descricao": "Triagem de Entrada",
+          "uri": "http://ti.com",
+          "icon": "ambulance"
+        }
+      ]
+    }
+  ],
+  "cardsFavoritos": {
+    "idUsuario": "",
+    "cards": {
+      "idUsuario": "dfgdfg",
+      "cards": []
+    }
+  },
+  "aviso": [
+    {
+      "id": "3a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "mensagem": "Aviso portaria",
+      "data": "2019-08-28T11:28:56.782Z"
+    },
+    {
+      "id": "4a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "mensagem": "Aviso TI",
+      "data": "2019-08-27T11:28:56.782Z"
+    },
+    {
+      "id": "8a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "mensagem": "Aviso Ambulatório",
+      "data": "2019-08-26T11:28:56.782Z"
+    }
+  ],
+  "ocorrencia": [
+    {
+      "id": "7a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "mensagem": "Ocorrência TI",
+      "data": "2019-08-28T11:28:56.782Z",
+      "lido": true
+    },
+    {
+      "id": "9a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "mensagem": "Ocorrência Portaria",
+      "data": "2019-08-27T11:28:56.782Z",
+      "lido": false
+    },
+    {
+      "id": "8a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "mensagem": "Ocorrência Ambulatório",
+      "data": "2019-08-26T11:28:56.782Z",
+      "lido": false
+    }
+  ],
+  "perfil": [
+    {
+      "id": "2a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "name": "HERP"
+    },
+    {
+      "id": "1a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "name": "INSTITUTO NOVO"
+    },
+    {
+      "id": "5a7f55c1-d2df-4455-bef8-f73e255889c1",
+      "name": "INSTITUTO IRIS"
+    }
+  ],
+  "usuario": [
+    {
+      "id": "413c1469-dc33-4470-9415-f1cecf85cde5",
+      "nome": "Acaciano Neves",
+      "email": "acaciano.neves@gmail.com",
+      "perfis": [
+        "2a7f55c1-d2df-4455-bef8-f73e255889c1",
+        "1a7f55c1-d2df-4455-bef8-f73e255889c1",
+        "5a7f55c1-d2df-4455-bef8-f73e255889c1"
+      ]
+    }
+  ],
+  "parametros": [
+    {
+      "id": "929c4cd4-52b4-4177-824c-4aa26b3ffca0",
+      "ouvirTweets": false,
+      "termosAtualizados": false,
+      "termoDeBusca": [
+        "Saúde brasil",
+        "Saúde pública",
+        "hcrp",
+        "hospital das clínicas",
+        "ribeirão preto saúde"
+      ]
+    }
+  ],
+  "twitter": [
+    {
+      "total": 7,
+      "result": [
+        {
+          "createdAt": "2019-07-28T14:51:00.000Z",
+          "stringCreatedAt": "07/28/2019 11:51:00",
+          "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
+          "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
+          "userName": "ivo marcelino",
+          "screenName": "9dbd6d985fea42b",
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
+          "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
+        },
+        {
+          "createdAt": "2019-07-28T14:51:00.000Z",
+          "stringCreatedAt": "07/28/2019 11:51:00",
+          "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
+          "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
+          "userName": "ivo marcelino",
+          "screenName": "9dbd6d985fea42b",
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
+          "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
+        },
+        {
+          "createdAt": "2019-07-28T14:51:00.000Z",
+          "stringCreatedAt": "07/28/2019 11:51:00",
+          "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
+          "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
+          "userName": "ivo marcelino",
+          "screenName": "9dbd6d985fea42b",
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
+          "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
+        },
+        {
+          "createdAt": "2019-07-28T14:56:34.000Z",
+          "stringCreatedAt": "07/28/2019 11:56:34",
+          "usuarioDesdeDe": "2019-04-06T22:58:13.000Z",
+          "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
+          "userName": "Valdir Pacheco",
+          "screenName": "Valdirmario44g1",
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1146012898529034240/81YEQoH0_normal.jpg",
+          "tweetLocalCreationDate": "2019-07-28T14:56:39.956Z"
+        },
+        {
+          "createdAt": "2019-07-28T14:59:02.000Z",
+          "stringCreatedAt": "07/28/2019 11:59:02",
+          "usuarioDesdeDe": "2011-08-03T00:57:46.000Z",
+          "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
+          "userName": "Flávio Mynssen",
+          "screenName": "MynssenFlavio",
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/593905318305865730/EQ-IIkve_normal.jpg",
+          "tweetLocalCreationDate": "2019-07-28T14:59:07.289Z"
+        },
+        {
+          "createdAt": "2019-07-28T15:02:10.000Z",
+          "stringCreatedAt": "07/28/2019 12:02:10",
+          "usuarioDesdeDe": "2011-01-13T01:09:15.000Z",
+          "text": "@AllanFrutuozo Marcou algum exame que só tem em Hospitais da Europa, que o Brasil não tem saúde de qualidade, depois dos 14 anos de PT a saúde está na UTI.",
+          "userName": "SERGIO BARROS",
+          "screenName": "sergiobarrosaju",
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1136089155199479808/xNeWGI4k_normal.png",
+          "tweetLocalCreationDate": "2019-07-28T15:02:15.698Z"
+        },
+        {
+          "createdAt": "2019-07-28T15:24:22.000Z",
+          "stringCreatedAt": "07/28/2019 12:24:22",
+          "usuarioDesdeDe": "2011-12-08T23:57:30.000Z",
+          "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
+          "userName": "André Deienno 1️⃣7️⃣",
+          "screenName": "Andredeienno",
+          "profileImageUrl": "http://pbs.twimg.com/profile_images/1993963812/Twitter_normal.jpg",
+          "tweetLocalCreationDate": "2019-07-28T15:24:27.618Z"
+        }
+      ]
+    }
+  ]
+}

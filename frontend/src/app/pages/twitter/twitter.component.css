@@ -1,0 +1,35 @@
+.container-app{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.row-header{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.row-tweets{
+    width: 100%;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.right-container{
+    position: absolute;
+    right: 0px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container-app{
+        width: 100%;
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+}
