@@ -19,7 +19,7 @@ export class TwitterComponent implements OnInit {
   constructor(private api: ParametrosService,
               private twitterService: TwitterService) {
     this.api.get().subscribe(data => {
-      this.parametros = data[0];
+      this.parametros = data;
 
       if (this.parametros) {
         this.checkbox = this.parametros.ouvirTweets;
@@ -31,10 +31,12 @@ export class TwitterComponent implements OnInit {
           }
         });
       }
+    }, (error) => {
+      console.log(error);
     });
 
     this.twitterService.get().subscribe(data => {
-      this.twitter = data[0];
+      this.twitter = data;
     });
   }
 

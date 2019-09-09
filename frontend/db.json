@@ -124,93 +124,105 @@
   ],
   "parametros": [
     {
-      "id": "929c4cd4-52b4-4177-824c-4aa26b3ffca0",
-      "ouvirTweets": false,
-      "termosAtualizados": false,
-      "termoDeBusca": [
-        "Saúde brasil",
-        "Saúde pública",
-        "hcrp",
-        "hospital das clínicas",
-        "ribeirão preto saúde"
-      ]
+      "success": true,
+      "errorMessage": [
+        "Erro 1",
+        "Erro 2"
+      ],
+      "result": {
+        "id": "929c4cd4-52b4-4177-824c-4aa26b3ffca0",
+        "ouvirTweets": false,
+        "termosAtualizados": false,
+        "termoDeBusca": [
+          "Saúde brasil",
+          "Saúde pública",
+          "hcrp",
+          "hospital das clínicas",
+          "ribeirão preto saúde"
+        ]
+      }
     }
   ],
   "twitter": [
     {
-      "total": 7,
-      "result": [
-        {
-          "createdAt": "2019-07-28T14:51:00.000Z",
-          "stringCreatedAt": "07/28/2019 11:51:00",
-          "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
-          "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
-          "userName": "ivo marcelino",
-          "screenName": "9dbd6d985fea42b",
-          "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
-          "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
-        },
-        {
-          "createdAt": "2019-07-28T14:51:00.000Z",
-          "stringCreatedAt": "07/28/2019 11:51:00",
-          "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
-          "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
-          "userName": "ivo marcelino",
-          "screenName": "9dbd6d985fea42b",
-          "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
-          "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
-        },
-        {
-          "createdAt": "2019-07-28T14:51:00.000Z",
-          "stringCreatedAt": "07/28/2019 11:51:00",
-          "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
-          "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
-          "userName": "ivo marcelino",
-          "screenName": "9dbd6d985fea42b",
-          "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
-          "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
-        },
-        {
-          "createdAt": "2019-07-28T14:56:34.000Z",
-          "stringCreatedAt": "07/28/2019 11:56:34",
-          "usuarioDesdeDe": "2019-04-06T22:58:13.000Z",
-          "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
-          "userName": "Valdir Pacheco",
-          "screenName": "Valdirmario44g1",
-          "profileImageUrl": "http://pbs.twimg.com/profile_images/1146012898529034240/81YEQoH0_normal.jpg",
-          "tweetLocalCreationDate": "2019-07-28T14:56:39.956Z"
-        },
-        {
-          "createdAt": "2019-07-28T14:59:02.000Z",
-          "stringCreatedAt": "07/28/2019 11:59:02",
-          "usuarioDesdeDe": "2011-08-03T00:57:46.000Z",
-          "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
-          "userName": "Flávio Mynssen",
-          "screenName": "MynssenFlavio",
-          "profileImageUrl": "http://pbs.twimg.com/profile_images/593905318305865730/EQ-IIkve_normal.jpg",
-          "tweetLocalCreationDate": "2019-07-28T14:59:07.289Z"
-        },
-        {
-          "createdAt": "2019-07-28T15:02:10.000Z",
-          "stringCreatedAt": "07/28/2019 12:02:10",
-          "usuarioDesdeDe": "2011-01-13T01:09:15.000Z",
-          "text": "@AllanFrutuozo Marcou algum exame que só tem em Hospitais da Europa, que o Brasil não tem saúde de qualidade, depois dos 14 anos de PT a saúde está na UTI.",
-          "userName": "SERGIO BARROS",
-          "screenName": "sergiobarrosaju",
-          "profileImageUrl": "http://pbs.twimg.com/profile_images/1136089155199479808/xNeWGI4k_normal.png",
-          "tweetLocalCreationDate": "2019-07-28T15:02:15.698Z"
-        },
-        {
-          "createdAt": "2019-07-28T15:24:22.000Z",
-          "stringCreatedAt": "07/28/2019 12:24:22",
-          "usuarioDesdeDe": "2011-12-08T23:57:30.000Z",
-          "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
-          "userName": "André Deienno 1️⃣7️⃣",
-          "screenName": "Andredeienno",
-          "profileImageUrl": "http://pbs.twimg.com/profile_images/1993963812/Twitter_normal.jpg",
-          "tweetLocalCreationDate": "2019-07-28T15:24:27.618Z"
-        }
-      ]
+      "success": true,
+      "errorMessage": [
+      ],
+      "result": {
+        "total": 7,
+        "result": [
+          {
+            "createdAt": "2019-07-28T14:51:00.000Z",
+            "stringCreatedAt": "07/28/2019 11:51:00",
+            "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
+            "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
+            "userName": "ivo marcelino",
+            "screenName": "9dbd6d985fea42b",
+            "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
+            "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
+          },
+          {
+            "createdAt": "2019-07-28T14:51:00.000Z",
+            "stringCreatedAt": "07/28/2019 11:51:00",
+            "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
+            "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
+            "userName": "ivo marcelino",
+            "screenName": "9dbd6d985fea42b",
+            "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
+            "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
+          },
+          {
+            "createdAt": "2019-07-28T14:51:00.000Z",
+            "stringCreatedAt": "07/28/2019 11:51:00",
+            "usuarioDesdeDe": "2014-04-30T14:33:17.000Z",
+            "text": "RT @folha: Médicos pelo Brasil, o novo programa que do Ministério da Saúde para levar médicos ao interior do país, terá seleção por meio de…",
+            "userName": "ivo marcelino",
+            "screenName": "9dbd6d985fea42b",
+            "profileImageUrl": "http://pbs.twimg.com/profile_images/732059378329759745/4Y9N2ezT_normal.jpg",
+            "tweetLocalCreationDate": "2019-07-28T14:51:05.906Z"
+          },
+          {
+            "createdAt": "2019-07-28T14:56:34.000Z",
+            "stringCreatedAt": "07/28/2019 11:56:34",
+            "usuarioDesdeDe": "2019-04-06T22:58:13.000Z",
+            "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
+            "userName": "Valdir Pacheco",
+            "screenName": "Valdirmario44g1",
+            "profileImageUrl": "http://pbs.twimg.com/profile_images/1146012898529034240/81YEQoH0_normal.jpg",
+            "tweetLocalCreationDate": "2019-07-28T14:56:39.956Z"
+          },
+          {
+            "createdAt": "2019-07-28T14:59:02.000Z",
+            "stringCreatedAt": "07/28/2019 11:59:02",
+            "usuarioDesdeDe": "2011-08-03T00:57:46.000Z",
+            "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
+            "userName": "Flávio Mynssen",
+            "screenName": "MynssenFlavio",
+            "profileImageUrl": "http://pbs.twimg.com/profile_images/593905318305865730/EQ-IIkve_normal.jpg",
+            "tweetLocalCreationDate": "2019-07-28T14:59:07.289Z"
+          },
+          {
+            "createdAt": "2019-07-28T15:02:10.000Z",
+            "stringCreatedAt": "07/28/2019 12:02:10",
+            "usuarioDesdeDe": "2011-01-13T01:09:15.000Z",
+            "text": "@AllanFrutuozo Marcou algum exame que só tem em Hospitais da Europa, que o Brasil não tem saúde de qualidade, depois dos 14 anos de PT a saúde está na UTI.",
+            "userName": "SERGIO BARROS",
+            "screenName": "sergiobarrosaju",
+            "profileImageUrl": "http://pbs.twimg.com/profile_images/1136089155199479808/xNeWGI4k_normal.png",
+            "tweetLocalCreationDate": "2019-07-28T15:02:15.698Z"
+          },
+          {
+            "createdAt": "2019-07-28T15:24:22.000Z",
+            "stringCreatedAt": "07/28/2019 12:24:22",
+            "usuarioDesdeDe": "2011-12-08T23:57:30.000Z",
+            "text": "RT @CarlosAGoulart1: 1 BILHÃO desviados da saúde pública do Maranhão. É pessoas morrendo em hospitais. Uma vergonha essa quadrilha do PT. h…",
+            "userName": "André Deienno 1️⃣7️⃣",
+            "screenName": "Andredeienno",
+            "profileImageUrl": "http://pbs.twimg.com/profile_images/1993963812/Twitter_normal.jpg",
+            "tweetLocalCreationDate": "2019-07-28T15:24:27.618Z"
+          }
+        ]
+      }
     }
   ]
 }

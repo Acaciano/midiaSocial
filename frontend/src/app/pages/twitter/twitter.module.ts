@@ -1,6 +1,6 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClientModule, HttpClient, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { FormsModule } from '@angular/forms';
 
@@ -15,6 +15,7 @@ import { LabelTwitterComponent } from '@shared/components/label-twitter/label-tw
 import { ParametrosService } from 'src/app/core/services/parametros.service';
 import { ApiService } from 'src/app/core/services/api.service';
 import { TwitterService } from 'src/app/core/services/twitter.service';
+import { HttpResponseInterceptor } from 'src/app/core/interceptors/http.response.interceptor';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { TwitterService } from 'src/app/core/services/twitter.service';
   providers: [
     ApiService,
     ParametrosService,
-    TwitterService
+    TwitterService,
+    { provide: HTTP_INTERCEPTORS, useClass: HttpResponseInterceptor, multi: true },
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

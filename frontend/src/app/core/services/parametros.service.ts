@@ -14,7 +14,6 @@ export class ParametrosService {
   }
 
   public put(model: Parametros): Observable<Parametros> {
-    console.log(model);
     return this.api.put(`/Parametros/${model.id}`, model);
   }
 }

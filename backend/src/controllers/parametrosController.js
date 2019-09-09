@@ -4,7 +4,13 @@ module.exports = {
 
    async index(req, res ){
       const data = await parametrosModel.findOne();
-      return res.json(data);
+
+      const objData = {
+         'success': true,
+         'result': data
+      }
+
+      return res.json(objData);
    },
     
    async store(req, res) {
